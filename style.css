@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #f8f8f8;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+  color: transparent; /* For Firefox */
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ffb347;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5em;
+}
+
+li {
+  background: rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+  color: #232526;
+}
